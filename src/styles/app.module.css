@@ -1,0 +1,138 @@
+.layout {
+  background: linear-gradient(to right, #6eda78, #ffa200);
+  min-height: 100vh;
+}
+
+.divCenter {
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.motionCardItemDivText {
+  position: absolute;
+  bottom: -5px;
+}
+.motionCardItemText {
+  color: #fff;
+  background-color: #6eda78;
+  font-size: 1.5vh;
+  border-radius: 18px;
+  padding: 0 15px;
+  margin: 0;
+}
+
+.motionBox {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  cursor: pointer;
+
+  background-color: #fff;
+  border-radius: 18px;
+  margin: 15px;
+
+  width: 300px;
+}
+.motionBox:hover {
+  background-color: #ffa200;
+}
+.motionBox:active {
+  background-color: #6eda78;
+}
+
+.triangleLeft {
+  margin: 15px;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 100px solid gray;
+  border-bottom: 50px solid transparent;
+}
+ .triangleRight {
+  margin: 15px;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid gray;
+  border-bottom: 50px solid transparent;
+ }
+ .triangleUp {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid gray;
+ }
+ .triangleDown {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid gray;
+ }
+.ellipse {
+  margin: 15px;
+  width: 200px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 50%;
+}
+.trapezoid {
+  margin: 15px;
+  width: 200px;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid gray;
+}
+.rectangle {
+  margin: 15px;
+  width: 200px;
+  height: 100px;
+  background-color: gray;
+}
+.parallelogram {
+  margin: 15px;
+  width: 200px;
+  height: 100px;
+  background-color: gray;
+  transform: skew(20deg);
+}
+.square {
+  margin: 15px;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+.circle {
+  min-width: 100px;
+  margin: 15px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+/* -------------- */
+
+.formBox {
+  position: relative;
+  margin: 0 100px;
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 6px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+
+  padding: 25px 25px 0px;
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+.tableBox {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
